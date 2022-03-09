@@ -11,8 +11,10 @@ function Metrics() {
     fetchTimeEndoint();
   }, []);
   return (
-    <div>
-      <pre>{metrics ? metrics : "Loading server metrics..."}</pre>
+    <div className="metrics-wrapper">
+      <pre>
+        <code>{metrics ? metrics : "Loading server metrics..."}</code>
+      </pre>
     </div>
   );
 }

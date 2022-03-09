@@ -19,7 +19,7 @@ function Time() {
   //converting in seconds
 
   return (
-    <div>
+    <div className="time-wrapper">
       <p>
         {serverTime
           ? `Server Epoch Time is ${serverTime}`

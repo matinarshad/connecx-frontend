@@ -4,7 +4,7 @@ import Time from "./components/Time";
 
 function App() {
   return (
-    <div>
+    <div className="main-wrapper">
       <Time />
       <Metrics />
     </div>
